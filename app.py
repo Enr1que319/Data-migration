@@ -3,6 +3,7 @@ import func
 import os
 
 path = '/Users/enriquevazquez/Desktop/Data-migration/Resources'
+files_ord = ['departments','jobs','hired_employees']
 
 #################################################
 # Flask Setup
@@ -22,7 +23,6 @@ def home():
 
 @app.route('/api/v1.0/exportData')
 def startProcess():
-    files_ord = ['departments','jobs','hired_employees']
 
     try:
         for file in files_ord:
