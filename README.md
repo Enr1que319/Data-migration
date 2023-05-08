@@ -1,2 +1,2 @@
 # Data-migration
-Pipeline that move data with an API using Python and SQL
+This project is big data migration to a new database system.
